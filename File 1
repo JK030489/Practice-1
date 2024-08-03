@@ -1,0 +1,15 @@
+echo "# Practice-1" >> README.md
+git init
+git add README.md
+git add audio
+git add images
+echo "# README-feed.md" >> README-feed.md
+git add README-feed.md
+git add feed.yaml
+git add LICENSE
+git add audio
+git add images
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JK030489/Practice-1.git
+git push -u origin main
